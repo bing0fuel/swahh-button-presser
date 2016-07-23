@@ -30,6 +30,10 @@
       "js": ["jquery.min.js", "app.js"],
       "run_at": "document_end"
     }
+  ],
+
+  "web_accessible_resources": [
+    "images/icon16.png"
   ]
 
 }

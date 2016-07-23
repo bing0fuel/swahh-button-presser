@@ -25,11 +25,12 @@ $(function() {
         return;
     };
 
+    var logoUrl = chrome.extension.getURL('/images/icon16.png');
     var checkInTimeHTML =
         '<div class="swa_forms_fieldContainer"> \
             <div class="swa_forms_labelContainer"> \
                 <label for="checkInHour"> \
-                    Check in time: \
+                    <img src="' + logoUrl + '"> Check in time: \
                 </label> \
                     <div class="swa_forms_fieldHelp_below"> \
                         (HH:MM -- 24 hr notation) \
